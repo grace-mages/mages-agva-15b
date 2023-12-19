@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item"><a href="home.html">Home</a></div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Grae Photography</h2>
+
+        <p>
+          Welcome to Grae Photography! Grace Mages puts in countless hard work
+          and hours behind the camera and behind her computer to give you the
+          best portraits possible.
+        </p>
+        <p>
+          Grae Photography mainly specializes in senior portraits, but is open
+          to any and all ideas to meet your photograph needs! Go to the Contact
+          Us page to book today! We can't wait to bring your dreams to life!
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="GPlogo"
+          src="https://cdn.glitch.global/34c5b094-828e-4941-aa2f-7604cde79d92/GraePhotographyLogo.png?v=1702258156820"
+        />
+        <div>
+          <ul>
+            <li>Senior Portraits</li>
+            <li>Family Photographs</li>
+            <li>Newborn Sessions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>FALL 15</h4>
+        <p>
+          Ready to maximize our preacious fall leaves? Book your fall session
+          today and recieve 15% off when you mention this ad or use code"FALL15"
+          at checkout!
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Senior Family for $50</h4>
+        <p>
+          Have a senior being photographed by Grae Photography? Need to update
+          your family pictures? Get dressed up with your senior for a family
+          picture at the beginnig of your already booked senior session for an
+          immediete family portrait. The additional time and portraits will cost
+          $50 (75% off GP Family Pack). Mention this add when booking to learn
+          more!
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+     <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
